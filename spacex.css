@@ -1,0 +1,115 @@
+body
+{
+    margin: 0;
+}
+
+.box1
+{
+    position: relative;
+    width: 100%;
+    height: 695px;
+   
+}
+.image1 
+{
+    width: 100%;
+    height: 695px;
+    object-fit: cover;
+    position: absolute;
+    
+    
+}
+.header 
+{
+    position: absolute;
+    color: white;
+    display: flex;  
+}
+.logo
+{
+    font-size: 38px;
+    padding-left: 58px;
+    padding-right: 25px;
+}
+.header p
+{
+    margin-right: 28px;
+}
+.p
+{
+    padding-top: 32px;
+    font-size: 18px;
+    padding-right: 12px;
+}
+#shop
+{
+    padding-left: 30px;
+}
+.inside-image
+{
+    position: relative;
+    color:white;
+    padding-top: 345px;
+    padding-left: 60px;
+    font-size: 39px;
+    line-height: 5px;
+    font-weight: bolder;
+    
+}
+.text1
+{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.button1
+{
+    border-color: white;  
+    
+    background-color: transparent;
+    height: 65px;
+    width: 170px;     
+    transition:  2s;
+}
+.button1 a{
+    color: white;
+}
+.button1:hover
+{
+    /* color: black; */
+    background-color:white;
+    
+}
+.button1:hover a
+{
+    color: black;
+}
+a
+{
+    text-decoration: none;
+    /* color: white; */
+    font-size: 15px;  
+}
+.footer
+{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+   
+}
+.footer p
+{
+    color: white;
+    position: relative;
+   margin-right: 35px;
+   padding-top: 25px;
+   font-size: 15px;
+  
+
+}
+#text2
+{
+    padding-left: 265px;
+}
+
